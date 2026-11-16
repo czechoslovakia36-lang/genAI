@@ -31,3 +31,13 @@ result = client.responses.create(
 
 
 print(result.output_text)
+
+# token usages
+
+print(f"input token: {result.usage.input_tokens}")
+print(f"o/p token: {result.usage.output_tokens}")
+print(f"total token: {result.usage.total_tokens}"
+      
+      )
+
+
